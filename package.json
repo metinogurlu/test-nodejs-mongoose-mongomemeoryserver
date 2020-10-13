@@ -1,0 +1,34 @@
+{
+  "name": "test-nodejs-mongoose-mongomemeoryserver",
+  "version": "1.0.0",
+  "description": "Test NodeJS app with Mongoose, Jest and MongoDB In-Memory Server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metinogurlu/test-nodejs-mongoose-mongomemeoryserver.git"
+  },
+  "keywords": [
+    "mongodb",
+    "mongoose",
+    "test",
+    "in-memory-db",
+    "mongomemoryserver"
+  ],
+  "author": "@metinogurlu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/metinogurlu/test-nodejs-mongoose-mongomemeoryserver/issues"
+  },
+  "homepage": "https://github.com/metinogurlu/test-nodejs-mongoose-mongomemeoryserver#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "mongoose": "^5.10.9"
+  },
+  "devDependencies": {
+    "jest": "^26.5.3",
+    "mongodb-memory-server": "^6.9.2"
+  }
+}
